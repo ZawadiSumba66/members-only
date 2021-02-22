@@ -1,4 +1,8 @@
-<h1>Blog Pos</h1>
+<h1>Blog Post</h1>
+
+<% if user_signed_in? %>
+  <%= link_to "Create a new Post", new_post_path %>
+<% end %>
 
 <% @posts.each do |post|%>
     <%=  post.title %>
