@@ -1,6 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # THE MEMBERS ONLY PROJECT
-
+  In this project, we configured an authentication for users where they can sign up if they are new users. They can then create a post which will be saved and displayed in the homepage. 
+  A user can also log out and if so, will not be able to see the author of the post. This also applies to non-registered users.
+  
 ## Getting started
 
 - Clone the repo `https://github.com/ZawadiSumba66/members-only.git`
