@@ -58,6 +58,7 @@ gem 'devise'
 gem 'bulma-rails'
 gem 'sidekiq'
 gem 'simple_form', '~> 5.1'
+gem 'wdm', '>= 0.1.0'
 
 group :development, :test do
   gem 'better_errors'
