@@ -9,7 +9,7 @@ Bundler.require(*Rails.groups)
 module MembersOnly
   class Application < Rails::Application
     config.active_job.queue_adapter = :sidekiq
-    config.application_name = 'Kickoff'
+    config.application_name = 'Blogger'
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
 
