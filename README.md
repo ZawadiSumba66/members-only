@@ -16,13 +16,13 @@
 ```rails s```
 Visit `http://localhost:3000/`
 
-### Signing_Up
+#### Signing_Up
 - Fill all the inputs required in the sign up form and submit to authenticate you as a valid user
 
-### Create a new Post
+#### Create a new Post
 - Go to the create post link and create a new post which will be saved in the home page
 
-### Logging_out
+#### Logging_out
 - Once you log out you cannot be able to see the authors' names but you can only see the posts
 
   
