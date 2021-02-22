@@ -57,6 +57,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 gem 'bulma-rails'
 gem 'sidekiq'
+gem 'simple_form', '~> 5.1'
 
 group :development, :test do
   gem 'better_errors'
