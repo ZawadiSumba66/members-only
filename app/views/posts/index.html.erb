@@ -10,7 +10,7 @@
 <% @posts.each do |post|%>
   <ul>
     <li><%= post.title %></li>
-    <li><%=  post.body %></li>
+    <li><%= post.body %></li>
     
    <% if user_signed_in? %>
      <li>Author:: <%= post.user.name%></li>
