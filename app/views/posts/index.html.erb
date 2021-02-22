@@ -1,0 +1,9 @@
+<h1>Blog Pos</h1>
+
+<% @posts.each do |post|%>
+    <%=  post.title %>
+    <%=  post.body %>
+   <% if user_signed_in? %>
+     <%= post.user.name%>
+   <% end %>
+<% end %>
