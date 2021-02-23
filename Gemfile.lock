@@ -97,8 +97,8 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubi (1.10.0)
-    eventmachine (1.2.7)
-    ffi (1.14.2)
+    eventmachine (1.2.7-x64-mingw32)
+    ffi (1.14.2-x64-mingw32)
     formatador (0.2.5)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -141,7 +141,7 @@ GEM
     multi_json (1.15.0)
     nenv (0.3.0)
     nio4r (2.5.5)
-    nokogiri (1.11.1-x86_64-linux)
+    nokogiri (1.11.1-x64-mingw32)
       racc (~> 1.4)
     notiffany (0.1.3)
       nenv (~> 0.1)
@@ -192,14 +192,14 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     redis (4.2.5)
-    regexp_parser (2.0.3)
+    regexp_parser (2.1.0)
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
     rubyzip (2.3.0)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
-    sassc (2.4.0)
+    sassc (2.4.0-x64-mingw32)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
       railties (>= 4.0.0)
@@ -235,6 +235,8 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2021.1)
+      tzinfo (>= 1.0.0)
     warden (1.2.9)
       rack (>= 2.0.9)
     web-console (4.1.0)
@@ -259,7 +261,7 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
-  x86_64-linux
+  x64-mingw32
 
 DEPENDENCIES
   better_errors

@@ -1,6 +1,6 @@
-require_relative "boot"
+require_relative 'boot'
 
-require "rails/all"
+require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -9,7 +9,7 @@ Bundler.require(*Rails.groups)
 module MembersOnly
   class Application < Rails::Application
     config.active_job.queue_adapter = :sidekiq
-    config.application_name = 'Kickoff'
+    config.application_name = 'Blogger'
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
 

@@ -1,0 +1,18 @@
+<% if user_signed_in? %>
+  <%= link_to "Create a new Post", new_post_path %>
+<% end %>
+
+<br>
+<br>
+
+<% @posts.each do |post|%>
+  <ul>
+    <li><%= post.title %></li>
+    <li><%= post.body %></li>
+    
+   <% if user_signed_in? %>
+     <li>Author:: <%= post.user.name%></li>
+     <br/>
+  </ul>
+   <% end %>
+<% end %>
