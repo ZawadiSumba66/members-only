@@ -15,7 +15,7 @@
 
 
 ## Features
-![screenshot](.\app\assets\images\screenshot.jpg)
+![screenshot](./app/assets/images/screenshot.JPG)
 
 - Start the rails server by running
 ```rails s```
