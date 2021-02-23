@@ -10,10 +10,13 @@
 - Run `git checkout -b members_only`
 - Run `git pull origin members_only`
 - Run `bundle install`
+- Run `$ rails db:create` to create database
 - Run `rails db:migrate` to get the schema
 
 
 ## Features
+![screenshot](./app/assets/images/screenshot.jpg)
+
 - Start the rails server by running
 ```rails s```
 Visit `http://localhost:3000/`
